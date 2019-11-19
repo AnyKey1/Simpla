@@ -1,0 +1,4 @@
+[submodule "design/rmi_theme"]
+	path = design/rmi_theme
+	url = https://github.com/AnyKey1/rmi_theme.git
+	branch = master
