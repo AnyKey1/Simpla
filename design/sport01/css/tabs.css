@@ -1,0 +1,125 @@
+.section
+{
+	margin: 20px 0 30px;
+	clear: both;
+}
+#cart_informer SPAN A
+{
+	color: #FFF;
+}
+#cart_informer SPAN A:hover
+{
+	color: #F3921A;
+}
+UL.tabs
+{
+	height: 28px;
+	line-height: 23px;
+	list-style: none;
+	border-bottom: 1px solid #626262;
+}
+.tabs LI
+{
+	float: left;
+	display: inline;
+	margin: 0 5px -2px 0;
+	padding: 0 10px 1px;
+	color: #383838;
+	cursor: pointer;
+	border: 1px solid #626262;
+	border-bottom: none;
+	position: relative;
+	font-size: 15px;
+	font-weight: bold;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-khtml-border-radius: 4px 4px 0 0;
+	-webkit-border-top-right-radius: 4px;
+	border-radius: 4px 4px 0 0;
+	border-top: 4px solid #F29119;
+}
+.tabs LI:hover, .vertical .tabs LI:hover
+{
+	color: #FFF;
+	padding: 0 10px 1px;
+	border: inherit solid #DDD;
+	background-color: #626262;
+}
+.tabs LI.current
+{
+	color: #FFF;
+	padding: 0 13px 1px;
+	border: 1px solid #DDD;
+	border-bottom: 1px solid #FFF;
+	bottom: -1px;
+	border-top: 4px solid #F29119;
+	background-color: #626262;
+}
+.box
+{
+	display: none;
+	padding: 10px 0 0;
+	color: #383838;
+}
+.box.visible
+{
+	display: block;
+}
+.box H2
+{
+	padding: 10px 0 0;
+}
+#data, #data2
+{
+	width: 400px !important;
+	position: fixed !important;
+	background-color: #FFF !important;
+	top: 50% !important;
+	left: 50% !important;
+	padding: 10px 5px 20px;
+	border: 2px solid #CFCFCF;
+	text-align: center;
+	-moz-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	margin: -100px 0 0 -200px;
+  border-radius: 20px;
+	color: #000000;
+}
+.checkout A
+{
+	margin: 10px;
+	padding: 5px 8px;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  border-radius: 5px;
+	border: 1px solid #CFCFCF;
+	background-color: #F4F4F4;
+}
+.checkout
+{
+	margin-top: 20px;
+}
+#data TABLE
+{
+	width: 96%;
+	text-align: left;
+	margin: 0 auto;
+}
+#data TABLE TD.quantity
+{
+	padding: 5px;
+	font-weight: bold;
+}
+.remove_cart
+{
+	height: 16px;
+	width: 16px;
+	border: 0 none #000000;
+	background: url(../images/delete.png) no-repeat;
+	text-indent: -9999em;
+	cursor: pointer;
+}
